@@ -41,7 +41,6 @@ public class TaskContentProvider extends ContentProvider {
 
     @Override
     public boolean onCreate() {
-        // TODO (2) Complete onCreate() and initialize a TaskDbhelper on startup
         // [Hint] Declare the DbHelper as a global variable
         dbHelper = new TaskDbHelper(getContext());
 
